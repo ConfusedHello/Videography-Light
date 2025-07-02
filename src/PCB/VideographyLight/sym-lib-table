@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "L1MC-RGB2290500MP0")(type "KiCad")(uri "${KIPRJMOD}/footprints/L1MC-RGB2290500MP0.kicad_sym")(options "")(descr ""))
   (lib (name "AL8862SP-13")(type "KiCad")(uri "${KIPRJMOD}/footprints/AL8862SP-13.kicad_sym")(options "")(descr ""))
+  (lib (name "LMR51606XFQDBVRQ1")(type "KiCad")(uri "${KIPRJMOD}/footprints/LMR51606XFQDBVRQ1.kicad_sym")(options "")(descr ""))
 )
