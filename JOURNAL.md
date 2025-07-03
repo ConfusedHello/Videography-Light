@@ -6,6 +6,16 @@ created_at: "2025-06-29"
 ---
 
 
+## July 2nd - @ConfusedHello
+Another full day spent on the project - practically the entire day from waking up to going to sleep. Made the control board schematic and PCB today - also wrote the software.
+
+![https://raw.githubusercontent.com/ConfusedHello/Videography-Light/refs/heads/main/assets/Schematic3.png]
+![https://raw.githubusercontent.com/ConfusedHello/Videography-Light/refs/heads/main/assets/PCB1.png]
+
+
+**Time spent: 14hrs**
+
+
 ## June 30th / July 1st - @ConfusedHello
 Journaling two days at once here (mostly because I was up until 2am looking at plane tickets) but as a quick summary of what's happened the last two days (would prefer nice, longer journals but timeee)
 
