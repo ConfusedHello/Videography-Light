@@ -6,6 +6,8 @@ DIY Film Light for Videography!
 
 
 ## Bill of Materials
+Also available in .csv format in [BOM.csv](https://github.com/ConfusedHello/Videography-Light/blob/main/BOM.csv). PCB BOMs are in [ControlBoard.csv](https://github.com/ConfusedHello/Videography-Light/blob/main/src/Production/Control%20PCB/ControlBoard.csv) and [VideographyLight.csv](https://github.com/ConfusedHello/Videography-Light/blob/main/src/Production/Light%20PCB/VideographyLight.csv)
+
 |Item                      |Qty.|Price (USD)|Ext. (USD)|Link                                                 |
 |--------------------------|----|-----------|----------|-----------------------------------------------------|
 |997-L1MCRGB2295MP0        |36  |$1.36      |$48.96    |https://mouser.com/c/?q=997-L1MCRGB2295MP0           |
@@ -39,8 +41,7 @@ DIY Film Light for Videography!
 |JLCPCB Light Board Stencil|1   |$7.00      |$7.00     |https://www.jlcpcb.com                               |
 |JLCPCB Shipping           |1   |$21.22     |$21.22    |https://www.jlcpcb.com                               |
 
-Total: $152.28 USD
-
+**Total:** $152.28 USD
 
 <hr>
 
