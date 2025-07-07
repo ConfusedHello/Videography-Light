@@ -2,6 +2,9 @@
 DIY Film Light for Videography!
 
 
+![Wiring Diagram](/assets/WiringDiagram.png)
+
+
 ## Bill of Materials
 |Item                      |Qty.|Price (USD)|Ext. (USD)|Link                                                 |
 |--------------------------|----|-----------|----------|-----------------------------------------------------|
@@ -32,8 +35,8 @@ DIY Film Light for Videography!
 |M2 Heat Insert            |16  |$0.11      |$1.73     |https://www.aliexpress.com/item/1005003582355741.html|
 |M2 Screw (10mm)           |16  |$0.21      |$3.40     |https://www.aliexpress.com/item/1005005688616965.html|
 |JLCPCB Control Board      |1   |$2.00      |$2.00     |https://www.jlcpcb.com                               |
-|JLCPCB Light Board        |1   |$2.00      |$2        |https://www.jlcpcb.com                               |
-|JLCPCB Light Board Stencil|1   |$7.00      |$7        |https://www.jlcpcb.com                               |
+|JLCPCB Light Board        |1   |$2.00      |$2.00     |https://www.jlcpcb.com                               |
+|JLCPCB Light Board Stencil|1   |$7.00      |$7.00     |https://www.jlcpcb.com                               |
 |JLCPCB Shipping           |1   |$21.22     |$21.22    |https://www.jlcpcb.com                               |
 
 Total: $152.28 USD
