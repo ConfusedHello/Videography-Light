@@ -36,12 +36,13 @@ Also available in .csv format in [BOM.csv](https://github.com/ConfusedHello/Vide
 |0.96 Inch OLED Display    |1   |$2.60      |$2.60     |https://www.aliexpress.com/item/1005007614149117.html|
 |M2 Heat Insert            |16  |$0.11      |$1.73     |https://www.aliexpress.com/item/1005003582355741.html|
 |M2 Screw (10mm)           |16  |$0.21      |$3.40     |https://www.aliexpress.com/item/1005005688616965.html|
+|48V Power Supply          |1   |$25.73     |$25.73    |https://www.aliexpress.com/item/1005008528926877.html|
 |JLCPCB Control Board      |1   |$2.00      |$2.00     |https://www.jlcpcb.com                               |
 |JLCPCB Light Board        |1   |$2.00      |$2.00     |https://www.jlcpcb.com                               |
 |JLCPCB Light Board Stencil|1   |$7.00      |$7.00     |https://www.jlcpcb.com                               |
 |JLCPCB Shipping           |1   |$21.22     |$21.22    |https://www.jlcpcb.com                               |
 
-**Total:** $152.28 USD
+**Total:** $178.01 USD
 
 <hr>
 
