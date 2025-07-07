@@ -6,6 +6,10 @@ created_at: "2025-06-29"
 ---
 
 
+## July 3rd, 4th, 7th - @ConfusedHello
+Finished off the light PCB!!
+
+
 ## July 2nd - @ConfusedHello
 Another full day spent on the project - practically the entire day from waking up to going to sleep. Made the control board schematic and PCB today - also wrote the software.
 
