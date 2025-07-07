@@ -1,12 +1,23 @@
 # Videography-Light
-DIY Film Light for Videography!
+Ever wanted a videography light but died when seeing the insane prices? Me too! This project involves a DIY, high-power RGBW film light built by [@ConfusedHello](https://github.com/confusedhello) and [@Jayx2u](https://github.com/Jayx2u/) for the Hack Club [Highway to Hardware](https://highway.hackclub.com/) program!
+
+We decided to design this project because as students, we honestly don't have the spare cash lying around for one, and we wanted a nice accent light for our planned upcoming videos. It utilises 36 *current controlled* RGBW LEDs running off a 48V supply and controlled with a Xiao RP2040!
+
+For details about the design process or other information, check out the [development journal](https://highway.hackclub.com/projects/ConfusedHello/Videography-Light). A local copy is available in [JOURNAL.md](https://github.com/ConfusedHello/Videography-Light/blob/main/JOURNAL.md).
 
 
+## The Design
 ![Wiring Diagram](/assets/WiringDiagram.png)
+
+<!-- TODO:
+Screenshot of a full 3D model render
+Screenshot of rendered PCBs
+Screenshot of PCB design + Schematics
+-->
 
 
 ## Bill of Materials
-Also available in .csv format in [BOM.csv](https://github.com/ConfusedHello/Videography-Light/blob/main/BOM.csv). PCB BOMs are in [ControlBoard.csv](https://github.com/ConfusedHello/Videography-Light/blob/main/src/Production/Control%20PCB/ControlBoard.csv) and [VideographyLight.csv](https://github.com/ConfusedHello/Videography-Light/blob/main/src/Production/Light%20PCB/VideographyLight.csv)
+Also available in .csv format in [BOM.csv](https://github.com/ConfusedHello/Videography-Light/blob/main/BOM.csv)! BOMs for the PCBs are in [ControlBoard.csv](https://github.com/ConfusedHello/Videography-Light/blob/main/src/Production/Control%20PCB/ControlBoard.csv) and [VideographyLight.csv](https://github.com/ConfusedHello/Videography-Light/blob/main/src/Production/Light%20PCB/VideographyLight.csv)~
 
 |Item                      |Qty.|Price (USD)|Ext. (USD)|Link                                                 |
 |--------------------------|----|-----------|----------|-----------------------------------------------------|
