@@ -5,16 +5,31 @@ description: "A DIY Film Light for Videography!"
 created_at: "2025-06-29"
 ---
 
+**Total time spent: ??hrs**
+
+
+## July 7th - @Jayx2u
+Hmmm
+
+**Time spent: ??hrs**
+
 
 ## July 3rd, 4th, 7th - @ConfusedHello
-Finished off the light PCB!!
+Finished off the light PCB!! Here's some screenshots to conclude my development journaling! There's actually better images in the [README](https://raw.githubusercontent.com/ConfusedHello/Videography-Light/) with silkscreens~
+
+![Schematic](https://raw.githubusercontent.com/ConfusedHello/Videography-Light/refs/heads/main/assets/KicadPCB2.png)
+![Schematic](https://raw.githubusercontent.com/ConfusedHello/Videography-Light/refs/heads/main/assets/KicadPCB1.png)
+![PCB](https://raw.githubusercontent.com/ConfusedHello/Videography-Light/refs/heads/main/assets/FusionPCB2.png)
+![PCB](https://raw.githubusercontent.com/ConfusedHello/Videography-Light/refs/heads/main/assets/FusionPCB2.png)
+
+**Time spent: 22hrs**
 
 
 ## July 2nd - @ConfusedHello
 Another full day spent on the project - practically the entire day from waking up to going to sleep. Made the control board schematic and PCB today - also wrote the software.
 
-![https://raw.githubusercontent.com/ConfusedHello/Videography-Light/refs/heads/main/assets/Schematic3.png]
-![https://raw.githubusercontent.com/ConfusedHello/Videography-Light/refs/heads/main/assets/PCB1.png]
+![Schematic](https://raw.githubusercontent.com/ConfusedHello/Videography-Light/refs/heads/main/assets/Schematic3.png)
+![PCB](https://raw.githubusercontent.com/ConfusedHello/Videography-Light/refs/heads/main/assets/PCB1.png)
 
 
 **Time spent: 14hrs**
