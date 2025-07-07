@@ -1391,7 +1391,7 @@
 						(type background)
 					)
 				)
-				(pin power_in line
+				(pin unspecified line
 					(at 0 0 0)
 					(length 5.08)
 					(name "A_RED"
@@ -1409,7 +1409,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin unspecified line
 					(at 0 0 0)
 					(length 5.08)
 					(hide yes)
@@ -1428,7 +1428,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin unspecified line
 					(at 0 -2.54 0)
 					(length 5.08)
 					(name "A_BLUE"
@@ -1446,7 +1446,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin unspecified line
 					(at 0 -5.08 0)
 					(length 5.08)
 					(name "A_GREEN"
@@ -1464,7 +1464,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin unspecified line
 					(at 0 -7.62 0)
 					(length 5.08)
 					(name "A_WHITE"
@@ -1482,7 +1482,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin unspecified line
 					(at 35.56 0 180)
 					(length 5.08)
 					(name "K_RED"
@@ -1500,7 +1500,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin unspecified line
 					(at 35.56 -2.54 180)
 					(length 5.08)
 					(name "K_BLUE"
@@ -1518,7 +1518,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin unspecified line
 					(at 35.56 -5.08 180)
 					(length 5.08)
 					(name "K_GREEN"
@@ -1536,7 +1536,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin unspecified line
 					(at 35.56 -7.62 180)
 					(length 5.08)
 					(name "K_WHITE"
@@ -7479,7 +7479,7 @@
 			)
 		)
 	)
-	(global_label "Cont_12"
+	(global_label "Cont_11"
 		(shape input)
 		(at 35.56 148.59 180)
 		(fields_autoplaced yes)
@@ -7897,7 +7897,7 @@
 			)
 		)
 	)
-	(global_label "Cont_14"
+	(global_label "Cont_13"
 		(shape input)
 		(at 35.56 153.67 180)
 		(fields_autoplaced yes)
@@ -9019,7 +9019,7 @@
 			)
 		)
 	)
-	(global_label "Cont_13"
+	(global_label "Cont_12"
 		(shape input)
 		(at 35.56 151.13 180)
 		(fields_autoplaced yes)
@@ -9134,6 +9134,23 @@
 				)
 				(justify left top)
 				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 147.32 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AL8862SP-13?qs=W0yvOO0ixfFVclRYoOMX8w%3D%3D"
+			(at 173.99 865.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 			)
 		)
 		(pin "8"
@@ -9276,6 +9293,14 @@
 				(justify left top)
 			)
 		)
+		(property "Mouser" ""
+			(at 118.11 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e5f43d83-9a98-4e22-8c47-9a6cc7842de6")
 		)
@@ -9356,7 +9381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "7447706101"
+		(property "Description" "Inductor, small symbol"
 			(at 96.52 275.59 0)
 			(effects
 				(font
@@ -9372,6 +9397,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 96.52 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9482,7 +9515,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 143.51 237.49 0)
 			(effects
 				(font
@@ -9500,13 +9533,29 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100V, X7R"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 143.51 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 143.51 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM32EC72A106ME5K"
+			(at 143.51 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9551,7 +9600,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
 			(at 234.95 274.32 0)
 			(effects
 				(font
@@ -9576,6 +9625,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 234.95 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "71-WSLT2010R5000FEA1"
+			(at 234.95 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9695,6 +9760,14 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "Mouser" ""
+			(at 196.85 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -9969,6 +10042,14 @@
 				(justify left top)
 			)
 		)
+		(property "Mouser" ""
+			(at 196.85 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "43417ee9-9e66-4a35-88ae-33bee03551e3")
 		)
@@ -10049,7 +10130,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "7447706101"
+		(property "Description" "Inductor, small symbol"
 			(at 191.77 322.58 0)
 			(effects
 				(font
@@ -10065,6 +10146,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 191.77 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10252,6 +10341,14 @@
 				(justify left top)
 			)
 		)
+		(property "Mouser" ""
+			(at 118.11 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7c06323a-8bcc-47e3-8d27-456e77eec157")
 		)
@@ -10381,7 +10478,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
 			(at 139.7 227.33 0)
 			(effects
 				(font
@@ -10406,6 +10503,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 139.7 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "71-WSLT2010R5000FEA1"
+			(at 139.7 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10535,7 +10648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Schottky diode"
+		(property "Description" "Schottky diode, small symbol"
 			(at 184.15 284.48 0)
 			(effects
 				(font
@@ -10551,6 +10664,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 184.15 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10670,6 +10791,14 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "Mouser" ""
+			(at 78.74 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -10812,6 +10941,14 @@
 				(justify left top)
 			)
 		)
+		(property "Mouser" ""
+			(at 196.85 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "05b2d8eb-2066-4ef8-8032-2d12416b26fa")
 		)
@@ -10952,6 +11089,14 @@
 				(justify left top)
 			)
 		)
+		(property "Mouser" ""
+			(at 157.48 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "35696b08-12ab-4f1f-a308-a229456cf1f1")
 		)
@@ -11021,7 +11166,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/AL8862.pdf"
@@ -11081,6 +11225,23 @@
 				)
 				(justify left top)
 				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 52.07 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AL8862SP-13?qs=W0yvOO0ixfFVclRYoOMX8w%3D%3D"
+			(at 78.74 865.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 			)
 		)
 		(pin "8"
@@ -11223,6 +11384,14 @@
 				(justify left top)
 			)
 		)
+		(property "Mouser" ""
+			(at 236.22 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e78bb1c8-baa6-493d-afa5-69715c303f48")
 		)
@@ -11352,7 +11521,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
 			(at 44.45 227.33 0)
 			(effects
 				(font
@@ -11377,6 +11546,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 44.45 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "71-WSLT2010R5000FEA1"
+			(at 44.45 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -11421,7 +11606,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 48.26 284.48 0)
 			(effects
 				(font
@@ -11439,13 +11624,29 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100V, X7R"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 48.26 284.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 48.26 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM32EC72A106ME5K"
+			(at 48.26 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -11509,7 +11710,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Schottky diode"
+		(property "Description" "Schottky diode, small symbol"
 			(at 279.4 331.47 0)
 			(effects
 				(font
@@ -11525,6 +11726,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 279.4 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -11701,7 +11910,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
 			(at 44.45 321.31 0)
 			(effects
 				(font
@@ -11726,6 +11935,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 44.45 321.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "71-WSLT2010R5000FEA1"
+			(at 44.45 321.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -11836,7 +12061,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 48.26 190.5 0)
 			(effects
 				(font
@@ -11854,13 +12079,29 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100V, X7R"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 48.26 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 48.26 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM32EC72A106ME5K"
+			(at 48.26 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -11982,6 +12223,14 @@
 				(justify left top)
 			)
 		)
+		(property "Mouser" ""
+			(at 39.37 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a549a7cd-f034-4264-88ba-5cbca1120579")
 		)
@@ -12045,7 +12294,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
 			(at 44.45 274.32 0)
 			(effects
 				(font
@@ -12070,6 +12319,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 44.45 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "71-WSLT2010R5000FEA1"
+			(at 44.45 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -12180,6 +12445,23 @@
 				)
 				(justify left top)
 				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 147.32 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AL8862SP-13?qs=W0yvOO0ixfFVclRYoOMX8w%3D%3D"
+			(at 173.99 912.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 			)
 		)
 		(pin "8"
@@ -12379,6 +12661,23 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 147.32 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AL8862SP-13?qs=W0yvOO0ixfFVclRYoOMX8w%3D%3D"
+			(at 173.99 818.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
 		(pin "8"
 			(uuid "62176320-d974-4713-b80f-809b118e2895")
 		)
@@ -12442,7 +12741,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 238.76 237.49 0)
 			(effects
 				(font
@@ -12460,13 +12759,29 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100V, X7R"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 238.76 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 238.76 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM32EC72A106ME5K"
+			(at 238.76 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -12530,7 +12845,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Schottky diode"
+		(property "Description" "Schottky diode, small symbol"
 			(at 88.9 237.49 0)
 			(effects
 				(font
@@ -12546,6 +12861,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 88.9 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -12607,7 +12930,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "7447706101"
+		(property "Description" "Inductor, small symbol"
 			(at 96.52 322.58 0)
 			(effects
 				(font
@@ -12623,6 +12946,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 96.52 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -12742,6 +13073,14 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "Mouser" ""
+			(at 78.74 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -12884,6 +13223,14 @@
 				(justify left top)
 			)
 		)
+		(property "Mouser" ""
+			(at 118.11 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9f17ec94-d701-44c5-87b1-d33388aa0252")
 		)
@@ -12966,7 +13313,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Schottky diode"
+		(property "Description" "Schottky diode, small symbol"
 			(at 184.15 237.49 0)
 			(effects
 				(font
@@ -12982,6 +13329,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 184.15 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -13061,6 +13416,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 358.14 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -13182,6 +13545,14 @@
 				(justify left top)
 			)
 		)
+		(property "Mouser" ""
+			(at 196.85 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e60e31ef-3c6f-4453-a214-8d39b767a14e")
 		)
@@ -13245,7 +13616,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
 			(at 234.95 227.33 0)
 			(effects
 				(font
@@ -13270,6 +13641,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 234.95 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "71-WSLT2010R5000FEA1"
+			(at 234.95 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -13399,7 +13786,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Schottky diode"
+		(property "Description" "Schottky diode, small symbol"
 			(at 88.9 284.48 0)
 			(effects
 				(font
@@ -13415,6 +13802,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 88.9 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -13542,7 +13937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "7447706101"
+		(property "Description" "Inductor, small symbol"
 			(at 191.77 275.59 0)
 			(effects
 				(font
@@ -13558,6 +13953,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 191.77 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -13679,6 +14082,14 @@
 				(justify left top)
 			)
 		)
+		(property "Mouser" ""
+			(at 157.48 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "03d314ab-dfe5-474c-9830-9438a4e542d4")
 		)
@@ -13759,7 +14170,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "7447706101"
+		(property "Description" "Inductor, small symbol"
 			(at 287.02 322.58 0)
 			(effects
 				(font
@@ -13775,6 +14186,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 287.02 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -13836,7 +14255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "7447706101"
+		(property "Description" "Inductor, small symbol"
 			(at 287.02 228.6 0)
 			(effects
 				(font
@@ -13852,6 +14271,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 287.02 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -13915,7 +14342,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Schottky diode"
+		(property "Description" "Schottky diode, small symbol"
 			(at 279.4 237.49 0)
 			(effects
 				(font
@@ -13931,6 +14358,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 279.4 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -13994,7 +14429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Schottky diode"
+		(property "Description" "Schottky diode, small symbol"
 			(at 184.15 331.47 0)
 			(effects
 				(font
@@ -14010,6 +14445,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 184.15 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -14054,7 +14497,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
 			(at 139.7 321.31 0)
 			(effects
 				(font
@@ -14079,6 +14522,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 139.7 321.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "71-WSLT2010R5000FEA1"
+			(at 139.7 321.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -14198,6 +14657,14 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "Mouser" ""
+			(at 236.22 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -14331,6 +14798,23 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 242.57 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AL8862SP-13?qs=W0yvOO0ixfFVclRYoOMX8w%3D%3D"
+			(at 269.24 818.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
 		(pin "8"
 			(uuid "f529dcc1-433d-4865-a732-44b197ffd184")
 		)
@@ -14413,7 +14897,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Schottky diode"
+		(property "Description" "Schottky diode, small symbol"
 			(at 88.9 331.47 0)
 			(effects
 				(font
@@ -14429,6 +14913,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 88.9 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -14548,6 +15040,14 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "Mouser" ""
+			(at 39.37 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -14690,6 +15190,14 @@
 				(justify left top)
 			)
 		)
+		(property "Mouser" ""
+			(at 236.22 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a7118765-c1ff-4ac9-9d36-7ff95f893043")
 		)
@@ -14819,7 +15327,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 48.26 331.47 0)
 			(effects
 				(font
@@ -14837,13 +15345,29 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100V, X7R"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 48.26 331.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 48.26 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM32EC72A106ME5K"
+			(at 48.26 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -14956,6 +15480,23 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 147.32 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AL8862SP-13?qs=W0yvOO0ixfFVclRYoOMX8w%3D%3D"
+			(at 173.99 771.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
 		(pin "8"
 			(uuid "f79eca15-194b-476a-a408-6266475f4fa8")
 		)
@@ -15019,7 +15560,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
 			(at 139.7 274.32 0)
 			(effects
 				(font
@@ -15044,6 +15585,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 139.7 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "71-WSLT2010R5000FEA1"
+			(at 139.7 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -15088,7 +15645,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 238.76 284.48 0)
 			(effects
 				(font
@@ -15106,13 +15663,29 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100V, X7R"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 238.76 284.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 238.76 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM32EC72A106ME5K"
+			(at 238.76 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -15157,7 +15730,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 143.51 284.48 0)
 			(effects
 				(font
@@ -15175,13 +15748,29 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100V, X7R"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 143.51 284.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 143.51 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM32EC72A106ME5K"
+			(at 143.51 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -15226,7 +15815,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 238.76 331.47 0)
 			(effects
 				(font
@@ -15244,13 +15833,29 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100V, X7R"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 238.76 331.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 238.76 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM32EC72A106ME5K"
+			(at 238.76 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -15378,7 +15983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "7447706101"
+		(property "Description" "Inductor, small symbol"
 			(at 191.77 228.6 0)
 			(effects
 				(font
@@ -15394,6 +15999,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 191.77 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -15581,6 +16194,14 @@
 				(justify left top)
 			)
 		)
+		(property "Mouser" ""
+			(at 157.48 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "19bfe512-4054-4e3a-b3b0-ab9891e7c04c")
 		)
@@ -15719,6 +16340,14 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "Mouser" ""
+			(at 236.22 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -15861,6 +16490,14 @@
 				(justify left top)
 			)
 		)
+		(property "Mouser" ""
+			(at 78.74 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f708c10c-cfa0-4832-8ef0-d0479f6c3e5e")
 		)
@@ -15990,6 +16627,23 @@
 				)
 				(justify left top)
 				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 242.57 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AL8862SP-13?qs=W0yvOO0ixfFVclRYoOMX8w%3D%3D"
+			(at 269.24 865.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 			)
 		)
 		(pin "8"
@@ -16140,7 +16794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Schottky diode"
+		(property "Description" "Schottky diode, small symbol"
 			(at 184.15 190.5 0)
 			(effects
 				(font
@@ -16156,6 +16810,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 184.15 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -16275,6 +16937,14 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "Mouser" ""
+			(at 118.11 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -16481,6 +17151,14 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "Mouser" ""
+			(at 196.85 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -16829,7 +17507,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x04, script generated"
 			(at 359.41 320.04 0)
 			(effects
 				(font
@@ -16845,6 +17523,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 359.41 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -16895,7 +17581,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 48.26 237.49 0)
 			(effects
 				(font
@@ -16913,13 +17599,29 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100V, X7R"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 48.26 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 48.26 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM32EC72A106ME5K"
+			(at 48.26 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -16964,7 +17666,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
 			(at 139.7 180.34 0)
 			(effects
 				(font
@@ -16989,6 +17691,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 139.7 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "71-WSLT2010R5000FEA1"
+			(at 139.7 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -17176,6 +17894,14 @@
 				(justify left top)
 			)
 		)
+		(property "Mouser" ""
+			(at 236.22 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "decd5f2b-ddde-40c0-bcff-8140bdcd122c")
 		)
@@ -17239,7 +17965,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
 			(at 44.45 180.34 0)
 			(effects
 				(font
@@ -17264,6 +17990,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 44.45 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "71-WSLT2010R5000FEA1"
+			(at 44.45 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -17383,6 +18125,14 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "Mouser" ""
+			(at 78.74 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -17582,6 +18332,23 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 52.07 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AL8862SP-13?qs=W0yvOO0ixfFVclRYoOMX8w%3D%3D"
+			(at 78.74 771.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
 		(pin "8"
 			(uuid "cf0005ab-8ad5-4d56-8e50-a146ce185379")
 		)
@@ -17720,6 +18487,14 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "Mouser" ""
+			(at 78.74 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -17994,6 +18769,14 @@
 				(justify left top)
 			)
 		)
+		(property "Mouser" ""
+			(at 118.11 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "61bb66c1-4b45-4d0e-917e-7dcb3257df76")
 		)
@@ -18074,7 +18857,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "7447706101"
+		(property "Description" "Inductor, small symbol"
 			(at 96.52 228.6 0)
 			(effects
 				(font
@@ -18090,6 +18873,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 96.52 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -18285,7 +19076,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Schottky diode"
+		(property "Description" "Schottky diode, small symbol"
 			(at 88.9 190.5 0)
 			(effects
 				(font
@@ -18301,6 +19092,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 88.9 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -18428,7 +19227,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "7447706101"
+		(property "Description" "Inductor, small symbol"
 			(at 96.52 181.61 0)
 			(effects
 				(font
@@ -18444,6 +19243,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 96.52 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -18554,7 +19361,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
 			(at 234.95 321.31 0)
 			(effects
 				(font
@@ -18579,6 +19386,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 234.95 321.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "71-WSLT2010R5000FEA1"
+			(at 234.95 321.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -18698,6 +19521,14 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "Mouser" ""
+			(at 39.37 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -18829,6 +19660,23 @@
 				)
 				(justify left top)
 				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 52.07 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AL8862SP-13?qs=W0yvOO0ixfFVclRYoOMX8w%3D%3D"
+			(at 78.74 818.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 			)
 		)
 		(pin "8"
@@ -18971,6 +19819,14 @@
 				(justify left top)
 			)
 		)
+		(property "Mouser" ""
+			(at 196.85 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "dcd36db2-94e1-48c3-8cb6-275e18c5b9f6")
 		)
@@ -19109,6 +19965,14 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "Mouser" ""
+			(at 118.11 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -19257,7 +20121,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "7447706101"
+		(property "Description" "Inductor, small symbol"
 			(at 287.02 275.59 0)
 			(effects
 				(font
@@ -19273,6 +20137,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 287.02 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -19383,6 +20255,23 @@
 				)
 				(justify left top)
 				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 52.07 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AL8862SP-13?qs=W0yvOO0ixfFVclRYoOMX8w%3D%3D"
+			(at 78.74 912.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 			)
 		)
 		(pin "8"
@@ -19533,7 +20422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Schottky diode"
+		(property "Description" "Schottky diode, small symbol"
 			(at 279.4 284.48 0)
 			(effects
 				(font
@@ -19549,6 +20438,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 279.4 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -19668,6 +20565,14 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "Mouser" ""
+			(at 78.74 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -19810,6 +20715,14 @@
 				(justify left top)
 			)
 		)
+		(property "Mouser" ""
+			(at 157.48 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "402ef0b4-04b7-4f2a-8098-a5f8fc2eee42")
 		)
@@ -19948,6 +20861,14 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "Mouser" ""
+			(at 39.37 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -20090,6 +21011,14 @@
 				(justify left top)
 			)
 		)
+		(property "Mouser" ""
+			(at 157.48 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "555186e9-9a16-4033-9b35-7b8ed540e43c")
 		)
@@ -20228,6 +21157,14 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "Mouser" ""
+			(at 39.37 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -20370,6 +21307,14 @@
 				(justify left top)
 			)
 		)
+		(property "Mouser" ""
+			(at 236.22 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "61eb61d0-bd33-4f3d-a758-6525ac6d9098")
 		)
@@ -20433,7 +21378,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 143.51 331.47 0)
 			(effects
 				(font
@@ -20451,13 +21396,29 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100V, X7R"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 143.51 331.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 143.51 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM32EC72A106ME5K"
+			(at 143.51 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -20645,6 +21606,14 @@
 				(justify left top)
 			)
 		)
+		(property "Mouser" ""
+			(at 39.37 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "916e500b-834f-4ecf-a085-229489b6ac60")
 		)
@@ -20785,6 +21754,14 @@
 				(justify left top)
 			)
 		)
+		(property "Mouser" ""
+			(at 157.48 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b683226f-900b-4b83-8ace-59e7caa6f348")
 		)
@@ -20916,6 +21893,23 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 242.57 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AL8862SP-13?qs=W0yvOO0ixfFVclRYoOMX8w%3D%3D"
+			(at 269.24 912.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
 		(pin "8"
 			(uuid "78755cb1-c54d-4d56-b74b-f442274626de")
 		)
@@ -20979,7 +21973,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 143.51 190.5 0)
 			(effects
 				(font
@@ -20997,13 +21991,29 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100V, X7R"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 143.51 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 143.51 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM32EC72A106ME5K"
+			(at 143.51 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -21131,7 +22141,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "7447706101"
+		(property "Description" "Inductor, small symbol"
 			(at 191.77 181.61 0)
 			(effects
 				(font
@@ -21147,6 +22157,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 191.77 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
