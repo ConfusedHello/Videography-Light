@@ -486,10 +486,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../../Production/Light PCB/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "VideographyLight.step",
       "svg": "",
       "vrml": ""
     },
@@ -582,7 +582,7 @@
           "group_by": false,
           "label": "Mouser Part Number",
           "name": "Mouser Part Number",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,

@@ -486,10 +486,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../production/Control PCB/",
+      "plot": "../../Production/Control PCB/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "ControlBoard.step",
       "svg": "",
       "vrml": ""
     },
