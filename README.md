@@ -7,16 +7,18 @@ For details about the design process or other information, check out the [develo
 
 
 ## The Design
-Here's a quick diagram showing how the project works
+Here's a quick diagram showing how the project works!
 ![Wiring Diagram](/assets/WiringDiagram.png)
-
-And a nice rendered 
-![Control Board](/assets/ControlBoard.png)
 
 <!-- TODO:
 Screenshot of a full 3D model render
-Screenshot of PCB design + Schematics
 -->
+
+And a nice rendered image of the control board.
+![Control Board](/assets/ControlBoard.png)
+
+As well as the schematic and PCB for both the control and light boards! 
+![Schematic and PCB for both boards](/assets/SchematicPCB.png)
 
 
 ## Bill of Materials
