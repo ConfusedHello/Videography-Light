@@ -1,4 +1,6 @@
-# Videography-Light
+# LUXCRAFT - DIY Film Light
+![Banner](/assets/luxcraft-banner.png)
+
 Ever wanted a videography light but died when seeing the insane prices? Me too! This project involves a DIY, high-power RGBW film light built by [@ConfusedHello](https://github.com/confusedhello) and [@Jayx2u](https://github.com/Jayx2u/) for the Hack Club [Highway to Hardware](https://highway.hackclub.com/) program!
 
 We decided to design this project because as students, we honestly don't have the spare cash lying around for one, and we wanted a nice accent light for our planned upcoming videos. It utilises 36 *current controlled* RGBW LEDs running off a 48V supply and controlled with a Xiao RP2040!
@@ -7,17 +9,14 @@ For details about the design process or other information, check out the [develo
 
 
 ## The Design
-Here's a quick diagram showing how the project works!
+Here's a quick diagram showing how the project works~
 ![Wiring Diagram](/assets/WiringDiagram.png)
 
-<!-- TODO:
-Screenshot of a full 3D model render
--->
-
-And a nice rendered image of the control board.
+And a nice rendered image of the case and control board-
+![Case Render](/assets/CaseRender.png)
 ![Control Board](/assets/ControlBoard.png)
 
-As well as the schematic and PCB for both the control and light boards! 
+As well as the schematic and PCB for both the control and light boards!
 ![Schematic and PCB for both boards](/assets/SchematicPCB.png)
 
 
