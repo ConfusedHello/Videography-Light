@@ -7,11 +7,14 @@ For details about the design process or other information, check out the [develo
 
 
 ## The Design
+Here's a quick diagram showing how the project works
 ![Wiring Diagram](/assets/WiringDiagram.png)
+
+And a nice rendered 
+![Control Board](/assets/ControlBoard.png)
 
 <!-- TODO:
 Screenshot of a full 3D model render
-Screenshot of rendered PCBs
 Screenshot of PCB design + Schematics
 -->
 
