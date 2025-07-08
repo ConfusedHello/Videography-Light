@@ -9,9 +9,25 @@ created_at: "2025-06-29"
 
 
 ## July 7th - @Jayx2u
-Hmmm
+With the PCB design completed, it was time for the case. I had the inovating never-seen before idea of placing a cube (with round corners of course) around all the electronics and call it a day. Shocking and genius idea I know right, no need to thank me. ;)
 
-**Time spent: ??hrs**
+Annnnnd volia! A cube around the whole thing. Has ample space for all the components and the heatsink. The translucent component is the shell and the rest is the base. Printed in to different parts. 
+
+Pic here
+
+Then it hits me 🤸‍🏌️‍. How do I attach the base to the shell??? So voila again, version 2. Four screw holes in the shell and 4 heat insert areas on the base
+
+Pic here
+
+Then it runs into me 🤸‍♂️🚗. How do I access the buttons on the bottom of the control PCB? Where's the OLED screen's location?? How does the power cables go into the case and connect to the control PCB??? So onto version 3 (aka final-final-this-time-for-real-film-light-caes.f3d). I decided to just put a hole in the bottom (with curved edges of course) and also include the place the OLED will be down there too. Also put a hole in the side for the power cables to enter. Here is what the base sketch ended up looking like - wanted it very precise:
+
+Pic here
+
+And with that.... tadaaaa version 3:
+
+Pic here
+
+**Time spent: 2hrs**
 
 
 ## July 3rd, 4th, 7th - @ConfusedHello
