@@ -5,21 +5,27 @@ description: "A DIY Film Light for Videography!"
 created_at: "2025-06-29"
 ---
 
-**Total time spent: ??hrs**
+
+**Total time spent: 66hrs**
+
+
+## July 8th
+Final preparations for submission! Did some silkscreening for the control PCB, made a quick flowchart for the wiring, finished up the BOM, rendered out some nice images for the README, and well, wrote the README all in time for a note-so-late night submission (woah not 1AM really?).
+
+**Time spent: 7hrs**
 
 
 ## July 7th - @Jayx2u
-With the PCB design completed, it was time for the case. I had the inovating never-seen before idea of placing a cube (with round corners of course) around all the electronics and call it a day. Shocking and genius idea I know right, no need to thank me. ;)
-
-Annnnnd volia! A cube around the whole thing. Has ample space for all the components and the heatsink. The translucent component is the shell and the rest is the base. Printed in to different parts. 
+With the PCB design completed, it was time for the case. I had the incredibly innovative never-seen before idea of placing a cube (with round corners of course) around all the electronics and calling it a day. Shocking and genius idea I know right, no need to thank me. ;)
 
 ![Case v1](https://github.com/ConfusedHello/Videography-Light/blob/main/assets/CaseV1.png?raw=true)
+Annnnnd volia! A cube around the whole thing. Has ample space for all the components and the heatsink. The translucent component is the shell and the rest is the base. Printed in to different parts. 
 
-Then it hits me 🤸‍🏌️‍. How do I attach the base to the shell??? So voila again, version 2. Four screw holes in the shell and 4 heat insert areas on the base
+Then it hits me 🤸🏌️. How do I attach the base to the shell??? So voila again, version 2, but with four screw holes in the shell and 4 heat insert areas on the base.
 
 ![Case v2](https://github.com/ConfusedHello/Videography-Light/blob/main/assets/CaseV2.png?raw=true)
 
-Then it runs into me 🤸‍♂️🚗. How do I access the buttons on the bottom of the control PCB? Where's the OLED screen's location?? How does the power cables go into the case and connect to the control PCB??? So onto version 3 (aka final-final-this-time-for-real-film-light-caes.f3d). I decided to just put a hole in the bottom (with curved edges of course) and also include the place the OLED will be down there too. Also put a hole in the side for the power cables to enter. Here is what the base sketch ended up looking like - wanted it very precise:
+Then it runs into me (again I know) 🤸🚗. How do I access the buttons on the bottom of the control PCB? Where's the OLED screen's location?? How does the power cables go into the case and connect to the control PCB??? So onto version 3 (aka final-final-this-time-for-real-film-light-caes.f3d). I decided to just put a hole in the bottom (with curved edges of course) and also include the place the OLED will be down there too. Also put a hole in the side for the power cables to enter. Here is what the base sketch ended up looking like - wanted it very precise:
 
 ![Case Sketch](https://github.com/ConfusedHello/Videography-Light/blob/main/assets/CaseSketch.png?raw=true)
 
@@ -101,7 +107,7 @@ And the controllers:
 
 Will speedrun the rest of the schematic and PCB tomorrow maybe? Time to finish up for today though as it's almost 1AM.
 
-**Time spent: 20hrs**
+**Time spent: 18hrs**
 
 
 ## June 29th - @ConfusedHello
