@@ -13,19 +13,20 @@ With the PCB design completed, it was time for the case. I had the inovating nev
 
 Annnnnd volia! A cube around the whole thing. Has ample space for all the components and the heatsink. The translucent component is the shell and the rest is the base. Printed in to different parts. 
 
-Pic here
+![Case v1](https://github.com/ConfusedHello/Videography-Light/blob/main/assets/CaseV1.png?raw=true)
 
 Then it hits me 🤸‍🏌️‍. How do I attach the base to the shell??? So voila again, version 2. Four screw holes in the shell and 4 heat insert areas on the base
 
-Pic here
+![Case v2](https://github.com/ConfusedHello/Videography-Light/blob/main/assets/CaseV2.png?raw=true)
 
 Then it runs into me 🤸‍♂️🚗. How do I access the buttons on the bottom of the control PCB? Where's the OLED screen's location?? How does the power cables go into the case and connect to the control PCB??? So onto version 3 (aka final-final-this-time-for-real-film-light-caes.f3d). I decided to just put a hole in the bottom (with curved edges of course) and also include the place the OLED will be down there too. Also put a hole in the side for the power cables to enter. Here is what the base sketch ended up looking like - wanted it very precise:
 
-Pic here
+![Case Sketch](https://github.com/ConfusedHello/Videography-Light/blob/main/assets/CaseSketch.png?raw=true)
 
 And with that.... tadaaaa version 3:
 
-Pic here
+![Case v3 Top](https://github.com/ConfusedHello/Videography-Light/blob/main/assets/CaseV3Top.png?raw=true)
+![Case v3 Bottom](https://github.com/ConfusedHello/Videography-Light/blob/main/assets/CaseV3Bottom.png?raw=true)
 
 **Time spent: 2hrs**
 
