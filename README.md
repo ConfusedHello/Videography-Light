@@ -19,6 +19,9 @@ And a nice rendered image of the case and control board-
 As well as the schematic and PCB for both the control and light boards!
 ![Schematic and PCB for both boards](/assets/SchematicPCB.png)
 
+Also the CAD because apparently that's necessary.
+![CAD](/assets/CaseV3Top.png) 
+
 
 ## Bill of Materials
 Also available in .csv format in [BOM.csv](https://github.com/ConfusedHello/Videography-Light/blob/main/BOM.csv)! BOMs for the PCBs are in [ControlBoard.csv](https://github.com/ConfusedHello/Videography-Light/blob/main/src/Production/Control%20PCB/ControlBoard.csv) and [VideographyLight.csv](https://github.com/ConfusedHello/Videography-Light/blob/main/src/Production/Light%20PCB/VideographyLight.csv)~
